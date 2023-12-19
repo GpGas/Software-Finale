@@ -10,4 +10,8 @@ for i in range(0, len(listItems)):
 x= np.arange (1,253)
 y= listItems
 
+plt.title("Apple Stock Price, Nov 2019 to Nov 2020")
+plt.xlabel("Day")
+plt.ylabel("Trading price")
 plt.plot (x , y)
+
